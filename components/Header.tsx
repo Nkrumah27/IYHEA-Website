@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
               key={link.name}
               href={link.href}
               onClick={(e) => { e.preventDefault(); handleNavClick(link.name); }}
-              className={`text-gray-700 hover:text-teal-60 transition-colors duration-300 pb-1 ${
+              className={`text-gray-700 hover:text-teal-600 transition-colors duration-300 pb-1 ${
                 currentPage === link.name ? 'border-b-2 border-orange-500 font-semibold' : ''
               }`}
             >
@@ -40,7 +40,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
         </nav>
         
         <div className="flex items-center space-x-4">
-          <div id="google_translate_element"></div>
           <button onClick={openSearch} className="text-gray-700 hover:text-teal-600 focus:outline-none" aria-label="Search">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
