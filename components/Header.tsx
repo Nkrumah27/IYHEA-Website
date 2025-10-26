@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
               key={link.name}
               href={link.href}
               onClick={(e) => { e.preventDefault(); handleNavClick(link.name); }}
-              className={`text-gray-700 hover:text-teal-600 transition-colors duration-300 pb-1 ${
+              className={`text-gray-700 hover:text-teal-60 transition-colors duration-300 pb-1 ${
                 currentPage === link.name ? 'border-b-2 border-orange-500 font-semibold' : ''
               }`}
             >
