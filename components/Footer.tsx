@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Page } from '../App';
-import { NAV_LINKS } from '../constants';
+import { FOOTER_LINKS } from '../constants';
 
 interface FooterProps {
   navigate: (page: Page) => void;
@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ navigate }) => {
           <div>
             <h4 className="font-bold text-lg mb-4 text-amber-300">Quick Links</h4>
             <ul className="space-y-2">
-              {NAV_LINKS.slice(0, 6).map(link => (
+              {FOOTER_LINKS.map(link => (
                 <li key={link.name}>
                   <a href={link.href} onClick={(e) => { e.preventDefault(); navigate(link.name); }} className="hover:text-amber-300 transition-colors">
                     {link.name}

@@ -86,7 +86,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
         </section>
 
       {/* Testimonial Section */}
-      <section className="py-20 bg-teal-700 bg-opacity-80" style={{backgroundImage: `url(${HomeImage1})`}}>
+      <section className="py-20 bg-teal-700 bg-opacity-80" style={{backgroundImage: "url('https://www.transparenttextures.com/patterns/az-subtle.png')"}}>
         <div className="container mx-auto px-6">
            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">What Our Students Say</h2>
           <TestimonialSlider />
@@ -94,7 +94,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="relative bg-cover bg-center text-white" style={{ backgroundImage: `url(${HomeImage1})` }}>
+      <section className="relative bg-cover bg-center text-white" style={{ backgroundImage: "url('https://picsum.photos/1600/400?random=50')" }}>
         <div className="absolute inset-0 bg-amber-500/90"></div>
         <div className="relative z-10 container mx-auto px-6 py-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Ready for an Unforgettable Adventure?</h2>
