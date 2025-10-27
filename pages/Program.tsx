@@ -22,7 +22,7 @@ const Program: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-teal-700 text-white py-20 text-center" style={{ backgroundImage: `url(${JourneyImage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay' }}>
+            <section className="relative bg-teal-700 text-white py-20 text-center" style={{ backgroundImage: `url()`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay' }}>
                 <div className="bg-black/50 absolute inset-0"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">A Structured Journey of Discovery</h1>

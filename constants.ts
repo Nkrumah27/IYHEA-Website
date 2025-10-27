@@ -5,7 +5,7 @@ import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from '
 
 export const NAV_LINKS: NavLink[] = [
   { name: 'Home', href: '#' },
-  { name: 'About Us', href: '#about' },
+  { name: 'About', href: '#about' },
   // { name: 'The Exchange Program', href: '#program' },
   // { name: 'Accommodation', href: '#accommodation' },
   { name: 'Study at KAAF University', href: '#university' },
@@ -17,7 +17,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const FOOTER_LINKS: NavLink[] = [
   { name: 'Home', href: '#' },
-  { name: 'About Us', href: '#about' },
+  { name: 'About', href: '#about' },
   { name: 'The Exchange Program', href: '#program' },
   { name: 'Accommodation', href: '#accommodation' },
   { name: 'Study at KAAF University', href: '#university' },

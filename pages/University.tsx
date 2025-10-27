@@ -13,7 +13,7 @@ const University: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url(${HomeImage1})` }}>
+            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url()` }}>
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <div className="max-w-3xl">

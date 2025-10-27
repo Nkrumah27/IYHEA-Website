@@ -16,7 +16,7 @@ import BlogDetail from './pages/BlogDetail';
 import SearchOverlay from './components/SearchOverlay';
 import { BlogPost } from './types';
 
-export type Page = 'Home' | 'About Us' | 'The Exchange Program' | 'Accommodation' | 'Study at KAAF University' | 'Discover Ghana' | 'Blog' | 'FAQ' | 'Contact';
+export type Page = 'Home' | 'About' | 'The Exchange Program' | 'Accommodation' | 'Study at KAAF University' | 'Discover Ghana' | 'Blog' | 'FAQ' | 'Contact';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>('Home');

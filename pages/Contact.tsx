@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url(${AccomodationImage})` }}>
+            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url()` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10 text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Get in Touch</h1>

@@ -5,7 +5,7 @@ const Accommodation: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: `url(${AccomodationImage})` }}>
+            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: `url()` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Safe, Comfortable, and Community-Focused Living</h1>
