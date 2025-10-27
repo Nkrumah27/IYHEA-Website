@@ -70,7 +70,7 @@ const App: React.FC = () => {
     switch (currentPage) {
       case 'Home':
         return <Home navigate={navigate} />;
-      case 'About Us':
+      case 'About':
         return <About />;
       case 'The Exchange Program':
         return <Program />;

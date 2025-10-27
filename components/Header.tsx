@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Page } from '../App';
-import { NAV_LINKS } from '../constants';
+import { NAV_LINKS, NAV_LINKS_2 } from '../constants';
 import { LogoImage } from '@/assets';
 import { AboutDropdown } from './AboutDropdown';
 
@@ -74,16 +74,42 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
       {isMenuOpen && (
         <div className="lg:hidden bg-white shadow-lg">
           <nav className="flex flex-col items-center py-4 space-y-4">
-            {NAV_LINKS.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={(e) => { e.preventDefault(); handleNavClick(link.name); }}
-                className={`text-gray-700 hover:text-teal-600 ${currentPage === link.name ? 'font-bold text-teal-600' : ''}`}
-              >
-                {link.name}
-              </a>
-            ))}
+            {
+              NAV_LINKS.slice(0,2).map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={(e) => { e.preventDefault(); handleNavClick(link.name); }}
+                  className={`text-gray-700 hover:text-teal-600 ${currentPage === link.name ? 'font-bold text-teal-600' : ''}`}
+                >
+                  {link.name}
+                </a>
+              ))
+            }
+            {
+              NAV_LINKS_2.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={(e) => { e.preventDefault(); handleNavClick(link.name); }}
+                  className={`text-gray-700 hover:text-teal-600 ${currentPage === link.name ? 'font-bold text-teal-600' : ''}`}
+                >
+                  {link.name}
+                </a>
+              ))
+            }
+            {
+              NAV_LINKS.slice(2).map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={(e) => { e.preventDefault(); handleNavClick(link.name); }}
+                  className={`text-gray-700 hover:text-teal-600 ${currentPage === link.name ? 'font-bold text-teal-600' : ''}`}
+                >
+                  {link.name}
+                </a>
+              ))
+            }
              <button onClick={() => handleNavClick('Contact')} className="bg-amber-500 text-white font-bold py-2 px-6 rounded-full hover:bg-amber-600 transition-all duration-300">
                 Apply Now
             </button>

@@ -15,6 +15,12 @@ export const NAV_LINKS: NavLink[] = [
   // { name: 'FAQ', href: '#faq' },
 ];
 
+export const NAV_LINKS_2: NavLink[] = [
+  { name: 'The Exchange Program', href: '#program' },
+  { name: 'Accommodation', href: '#accommodation' },
+  // { name: 'FAQ', href: '#faq' },
+];
+
 export const FOOTER_LINKS: NavLink[] = [
   { name: 'Home', href: '#' },
   { name: 'About', href: '#about' },
