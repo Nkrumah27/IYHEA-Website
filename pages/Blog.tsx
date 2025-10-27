@@ -2,6 +2,7 @@ import React from 'react';
 import { BLOG_POSTS } from '../constants';
 import { BlogPost } from '../types';
 import SocialShareButtons from '../components/SocialShareButtons';
+import { HomeImage1 } from '@/assets';
 
 interface BlogProps {
     selectPost: (post: BlogPost) => void;
@@ -32,7 +33,7 @@ const Blog: React.FC<BlogProps> = ({ selectPost }) => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: "url('https://picsum.photos/1200/400?random=43')" }}>
+            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: `url(${HomeImage1})` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Stories from Ghana</h1>

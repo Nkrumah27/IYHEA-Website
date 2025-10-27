@@ -1,4 +1,5 @@
 
+import { AccomodationImage, HomeImage1 } from '@/assets';
 import React from 'react';
 
 interface GhanaProps {
@@ -22,7 +23,7 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-28 text-center" style={{ backgroundImage: "url('https://picsum.photos/1200/500?random=22')" }}>
+            <section className="relative bg-cover bg-center text-white py-28 text-center" style={{ backgroundImage: `url(${AccomodationImage})` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Explore the Vibrant Heart of West Africa</h1>
@@ -37,7 +38,7 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
                         {categories.map((cat, index) => (
                              <ImageCard 
                                 key={cat}
-                                image={`https://picsum.photos/500/800?random=${23 + index}`} 
+                                image={`${HomeImage1}`} 
                                 title={cat} 
                                 onClick={() => selectCategory(cat)}
                              />

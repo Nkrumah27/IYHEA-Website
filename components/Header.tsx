@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Page } from '../App';
 import { NAV_LINKS } from '../constants';
 import Logo from './Logo';
+import { LogoImage } from '@/assets';
 
 interface HeaderProps {
   currentPage: Page;
@@ -21,7 +22,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
     <header className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-6 py-2 flex justify-between items-center">
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => handleNavClick('Home')}>
-          <Logo />
+          {/* <Logo /> */}
+          <img src={LogoImage} className="h-[50px]"/>
           <span className="text-xl font-extrabold text-teal-700">IYHEA</span>
         </div>
         <nav className="hidden lg:flex items-center space-x-6">

@@ -1,6 +1,7 @@
 import React from 'react';
 import TestimonialSlider from '../components/TestimonialSlider';
 import { Page } from '../App';
+import { HomeImage1 } from '@/assets';
 
 interface HomeProps {
   navigate: (page: Page) => void;
@@ -22,7 +23,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/1600/900?random=1')" }}>
+      <section className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url(${HomeImage1})` }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Your Journey Begins Here</h1>
@@ -65,8 +66,8 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                     <button onClick={() => navigate('Accommodation')} className="text-teal-600 font-bold hover:text-teal-800 transition-colors">Learn about accommodation &rarr;</button>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src="https://picsum.photos/400/500?random=2" alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
-                    <img src="https://picsum.photos/400/500?random=3" alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
+                    <img src={HomeImage1} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
+                    <img src={HomeImage1} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
                 </div>
             </div>
             <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center mt-20">
@@ -76,7 +77,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                     <button onClick={() => navigate('Study at KAAF University')} className="text-teal-600 font-bold hover:text-teal-800 transition-colors">Discover KAAF University &rarr;</button>
                 </div>
                 <div className="lg:order-1 relative">
-                    <img src="https://picsum.photos/800/600?random=4" alt="KAAF University Campus" className="rounded-lg shadow-lg"/>
+                    <img src={HomeImage1} alt="KAAF University Campus" className="rounded-lg shadow-lg"/>
                      <div className="absolute top-4 left-4 bg-white p-4 rounded-lg shadow-md">
                         <p className="font-bold text-lg">KAAF University</p>
                     </div>
@@ -85,7 +86,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
         </section>
 
       {/* Testimonial Section */}
-      <section className="py-20 bg-teal-700 bg-opacity-80" style={{backgroundImage: "url('https://www.transparenttextures.com/patterns/az-subtle.png')"}}>
+      <section className="py-20 bg-teal-700 bg-opacity-80" style={{backgroundImage: `url(${HomeImage1})`}}>
         <div className="container mx-auto px-6">
            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">What Our Students Say</h2>
           <TestimonialSlider />
@@ -93,7 +94,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="relative bg-cover bg-center text-white" style={{ backgroundImage: "url('https://picsum.photos/1600/400?random=50')" }}>
+      <section className="relative bg-cover bg-center text-white" style={{ backgroundImage: `url(${HomeImage1})` }}>
         <div className="absolute inset-0 bg-amber-500/90"></div>
         <div className="relative z-10 container mx-auto px-6 py-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Ready for an Unforgettable Adventure?</h2>

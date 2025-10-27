@@ -1,4 +1,5 @@
 
+import { FaceImage, OurMission } from '@/assets';
 import React from 'react';
 
 const CoreValueCard: React.FC<{ title: string; color: string; children: React.ReactNode }> = ({ title, color, children }) => (
@@ -54,7 +55,7 @@ const teamMembers: StaffCardProps[] = [
     {
         name: "Dr. Ama Serwaa",
         title: "Program Director",
-        image: "https://picsum.photos/id/1005/200/200",
+        image: FaceImage,
         social: {
             email: "ama.serwaa@iyhea-ghana.org",
             linkedin: "https://www.linkedin.com/in/amaserwaa",
@@ -65,7 +66,7 @@ const teamMembers: StaffCardProps[] = [
     {
         name: "Kofi Mensah",
         title: "Student Coordinator",
-        image: "https://picsum.photos/id/1011/200/200",
+        image: FaceImage,
         social: {
             email: "kofi.mensah@iyhea-ghana.org",
             linkedin: "https://www.linkedin.com/in/kofimensah",
@@ -75,7 +76,7 @@ const teamMembers: StaffCardProps[] = [
     {
         name: "Adjoa Ofori",
         title: "Housing Manager",
-        image: "https://picsum.photos/id/1027/200/200",
+        image: FaceImage,
         social: {
             email: "adjoa.ofori@iyhea-ghana.org",
             facebook: "https://www.facebook.com/adjoaofori",
@@ -85,7 +86,7 @@ const teamMembers: StaffCardProps[] = [
     {
         name: "Yaw Boakye",
         title: "Cultural Liaison",
-        image: "https://picsum.photos/id/1012/200/200",
+        image: FaceImage,
         social: {
             email: "yaw.boakye@iyhea-ghana.org",
             linkedin: "https://www.linkedin.com/in/yawboakye",
@@ -118,7 +119,7 @@ const About: React.FC = () => {
             </p>
           </div>
           <div>
-            <img src="https://picsum.photos/600/400?random=5" alt="Group of students" className="rounded-lg shadow-xl" />
+            <img src={OurMission} alt="Group of students" className="rounded-lg shadow-xl w-full" />
           </div>
         </div>
       </section>

@@ -1,11 +1,11 @@
-
+import { AccomodationImage } from '@/assets';
 import React from 'react';
 
 const Accommodation: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: "url('https://picsum.photos/1200/400?random=12')" }}>
+            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: `url(${AccomodationImage})` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Safe, Comfortable, and Community-Focused Living</h1>
@@ -30,10 +30,10 @@ const Accommodation: React.FC = () => {
                         </ul>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
-                        <img src="https://picsum.photos/400/300?random=13" alt="Hostel room" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src="https://picsum.photos/400/300?random=14" alt="Hostel common area" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src="https://picsum.photos/400/300?random=15" alt="Hostel exterior" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src="https://picsum.photos/400/300?random=16" alt="Students in hostel" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={AccomodationImage} alt="Hostel room" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={AccomodationImage} alt="Hostel common area" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={AccomodationImage} alt="Hostel exterior" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={AccomodationImage} alt="Students in hostel" className="rounded-lg shadow-md object-cover w-full h-full" />
                     </div>
                 </div>
             </section>
@@ -42,9 +42,9 @@ const Accommodation: React.FC = () => {
             <section className="py-20 bg-stone-100">
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div className="grid grid-cols-2 gap-4 md:order-1">
-                        <img src="https://picsum.photos/400/300?random=17" alt="Smiling host family" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src="https://picsum.photos/400/300?random=18" alt="Home cooked meal" className="rounded-lg shadow-md object-cover w-full h-full" />
-                         <img src="https://picsum.photos/400/300?random=19" alt="A family home" className="rounded-lg shadow-md object-cover w-full h-full col-span-2" />
+                        <img src={AccomodationImage} alt="Smiling host family" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={AccomodationImage} alt="Home cooked meal" className="rounded-lg shadow-md object-cover w-full h-full" />
+                         <img src={AccomodationImage} alt="A family home" className="rounded-lg shadow-md object-cover w-full h-full col-span-2" />
                     </div>
                     <div className="md:order-2">
                         <h2 className="text-3xl font-bold text-teal-800 mb-4">Vetted Host Families</h2>
