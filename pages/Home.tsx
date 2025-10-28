@@ -1,6 +1,7 @@
 import React from 'react';
 import TestimonialSlider from '../components/TestimonialSlider';
 import { Page } from '../App';
+import { bgImage } from '@/assets';
 import { HomeImage1 } from '@/assets';
 
 interface HomeProps {
@@ -23,7 +24,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url(${HomeImage1})` }}>
+      <section className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Your Journey Begins Here</h1>
