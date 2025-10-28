@@ -67,8 +67,8 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                     <button onClick={() => navigate('Accommodation')} className="text-teal-600 font-bold hover:text-teal-800 transition-colors">Learn about accommodation &rarr;</button>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src={HomeImage1} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
-                    <img src={HomeImage1} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
+                    <img src={bgImage} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
+                    <img src={bgImage} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
                 </div>
             </div>
             <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center mt-20">
