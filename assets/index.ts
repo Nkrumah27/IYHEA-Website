@@ -11,5 +11,6 @@ export {default as OurMission} from './our_mission.jpg'
 
 // exchange program page
 export {default as JourneyImage} from './journey.jpg'
+export {default as AccomodationImage} from './accomodations.webp'
 
 

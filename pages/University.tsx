@@ -1,5 +1,5 @@
 
-import { AccomodationImage, HomeImage1 } from '@/assets';
+import { AccomodationImage, HomeImage1, LogoImage } from '@/assets';
 import React from 'react';
 
 const BenefitCard: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
@@ -28,7 +28,9 @@ const University: React.FC = () => {
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <div className="w-48 h-16 bg-gray-200 flex items-center justify-center rounded-lg mb-6">
-                            <span className="font-bold text-gray-500">KAAF University Logo</span>
+                            <span className="font-bold text-gray-500">
+                                <img src={LogoImage} className="w-[30px]" />
+                            </span>
                         </div>
                         <h2 className="text-3xl font-bold text-teal-800 mb-4">Our Valued Academic Partner</h2>
                         <p className="text-gray-600 leading-relaxed mb-4">

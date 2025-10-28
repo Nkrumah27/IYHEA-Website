@@ -43,6 +43,7 @@ export const AboutDropdown: React.FC<AboutDropdownProps> = ({
       {/* Dropdown button */}
       <button
         type="button"
+        onClick={(e) => { e.preventDefault(); handleNavClick("About"); }}
         className={`inline-flex items-center text-gray-700 hover:text-teal-600 ${
           aboutLinks.some((l) => l.name === currentPage)
             ? "font-bold text-teal-600"
