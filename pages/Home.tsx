@@ -4,6 +4,7 @@ import { Page } from '../App';
 import { bgImage } from '@/assets';
 import { HomeImage1 } from '@/assets';
 import { hostelImage } from '@/assets';
+import { familyImage } from '@/assets';
 
 interface HomeProps {
   navigate: (page: Page) => void;
@@ -69,7 +70,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <img src={hostelImage} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
-                    <img src={bgImage} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
+                    <img src={familyImage} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
                 </div>
             </div>
             <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center mt-20">

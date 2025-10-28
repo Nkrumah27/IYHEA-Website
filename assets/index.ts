@@ -5,6 +5,7 @@ export {default as HomeImage1} from './hhero.jpg'
 export {default as FaceImage} from './face.jpg'
 export {default as bgImage} from './hhero.jpg'
 export {default as hostelImage} from './hostels.jpeg'
+export {default as familyImage} from './family.jpg'
 
 // about us page
 export {default as OurMission} from './our_mission.jpg'
