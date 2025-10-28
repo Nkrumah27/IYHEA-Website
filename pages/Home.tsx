@@ -3,6 +3,7 @@ import TestimonialSlider from '../components/TestimonialSlider';
 import { Page } from '../App';
 import { bgImage } from '@/assets';
 import { HomeImage1 } from '@/assets';
+import { hostelImage } from '@/assets';
 
 interface HomeProps {
   navigate: (page: Page) => void;
@@ -67,7 +68,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                     <button onClick={() => navigate('Accommodation')} className="text-teal-600 font-bold hover:text-teal-800 transition-colors">Learn about accommodation &rarr;</button>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src={bgImage} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
+                    <img src={hostelImage} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
                     <img src={bgImage} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
                 </div>
             </div>
