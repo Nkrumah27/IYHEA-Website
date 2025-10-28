@@ -4,7 +4,8 @@ import { Page } from '../App';
 import { bgImage } from '@/assets';
 import { HomeImage1 } from '@/assets';
 import { hostelImage } from '@/assets';
-import { familyImage } from '@/assets';
+import { familyImage } from '@/assets'; 
+import { kaafImage } from '@/assets';
 
 interface HomeProps {
   navigate: (page: Page) => void;
@@ -80,7 +81,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                     <button onClick={() => navigate('Study at KAAF University')} className="text-teal-600 font-bold hover:text-teal-800 transition-colors">Discover KAAF University &rarr;</button>
                 </div>
                 <div className="lg:order-1 relative">
-                    <img src={HomeImage1} alt="KAAF University Campus" className="rounded-lg shadow-lg"/>
+                    <img src={kaafImage} alt="KAAF University Campus" className="rounded-lg shadow-lg"/>
                      <div className="absolute top-4 left-4 bg-white p-4 rounded-lg shadow-md">
                         <p className="font-bold text-lg">KAAF University</p>
                     </div>
