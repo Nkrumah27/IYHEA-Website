@@ -98,7 +98,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="relative bg-cover bg-center text-white" style={{ backgroundImage: "url('https://picsum.photos/1600/400?random=50')" }}>
+      <section className="relative bg-cover bg-center text-white" style={{ backgroundImage: `url(${bgImage})` }}>
         <div className="absolute inset-0 bg-amber-500/90"></div>
         <div className="relative z-10 container mx-auto px-6 py-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Ready for an Unforgettable Adventure?</h2>
