@@ -1,7 +1,7 @@
 export { default as LogoImage } from './logo.png'
 
 // home page images
-export {default as HomeImage1} from './template1.jpg'
+export {default as HomeImage1} from './hhero.jpg'
 export {default as FaceImage} from './face.jpg'
 export {default as bgImage} from './hhero.jpg'
 
