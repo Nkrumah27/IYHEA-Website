@@ -19,6 +19,10 @@ export {default as officials} from './office.png'
 export {default as JourneyImage} from './journey.jpg'
 export {default as AccomodationImage} from './accomodations.webp'
 export {default as arrival} from './kotoka.jpeg'
+export {default as academic} from './learn.jpg'
+export {default as tour} from './excursion.jpg'
+export {default as community} from './volunteer.jpg'
+export {default as support} from './ongo.jpg'
 
 
 

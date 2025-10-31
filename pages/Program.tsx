@@ -1,4 +1,4 @@
-import { JourneyImage, arrival } from '@/assets';
+import { JourneyImage, arrival, academic, tour, community, support } from '@/assets';
 import React from 'react';
 
 const TimelineStep: React.FC<{ number: number; title: string; image: string; children: React.ReactNode }> = ({ number, title, image, children }) => (
@@ -40,19 +40,19 @@ const Program: React.FC = () => {
                             You'll be greeted at the airport by our friendly staff and transported to your new home. Our comprehensive orientation week covers everything from cultural norms and safety to navigating campus and the city of Accra.
                         </TimelineStep>
 
-                        <TimelineStep number={2} title="Academic Life" image={JourneyImage}>
+                        <TimelineStep number={2} title="Academic Life" image={academic}>
                             Immerse yourself in your studies at KAAF University. You'll attend classes alongside Ghanaian students, engage with expert faculty, and have access to the university's modern library and campus facilities.
                         </TimelineStep>
 
-                        <TimelineStep number={3} title="Cultural Excursions" image={JourneyImage}>
+                        <TimelineStep number={3} title="Cultural Excursions" image={tour}>
                             Explore the beauty and history of Ghana with our curated excursions. Visit historic slave castles, vibrant markets, lush rainforests, and beautiful beaches. These trips are designed to deepen your understanding of the country.
                         </TimelineStep>
 
-                        <TimelineStep number={4} title="Community Engagement" image={JourneyImage}>
+                        <TimelineStep number={4} title="Community Engagement" image={community}>
                             Get involved with the local community through volunteer opportunities and cultural workshops. Learn traditional drumming and dancing, participate in a local service project, and build meaningful connections.
                         </TimelineStep>
 
-                        <TimelineStep number={5} title="Ongoing Support" image={JourneyImage}>
+                        <TimelineStep number={5} title="Ongoing Support" image={support}>
                            Throughout your journey, our in-country team is always available to provide support. From academic advice and personal well-being checks to simply being a friendly face, we are here to ensure your experience is positive and successful.
                         </TimelineStep>
                     </div>
