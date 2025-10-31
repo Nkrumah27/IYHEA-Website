@@ -12,6 +12,8 @@ export {default as groupImage} from './group.jpg'
 
 // about us page
 export {default as OurMission} from './our_mission.jpg'
+export {default as officials} from './office.png'
+
 
 // exchange program page
 export {default as JourneyImage} from './journey.jpg'

@@ -1,5 +1,5 @@
 
-import { FaceImage, OurMission } from '@/assets';
+import { FaceImage, officials } from '@/assets';
 import React from 'react';
 
 const CoreValueCard: React.FC<{ title: string; color: string; children: React.ReactNode }> = ({ title, color, children }) => (
@@ -119,7 +119,7 @@ const About: React.FC = () => {
             </p>
           </div>
           <div>
-            <img src={OurMission} alt="Group of students" className="rounded-lg shadow-xl w-full" />
+            <img src={officials} alt="Group of students" className="rounded-lg shadow-xl w-full" />
           </div>
         </div>
       </section>
