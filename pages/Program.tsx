@@ -1,4 +1,4 @@
-import { JourneyImage } from '@/assets';
+import { JourneyImage, arrival } from '@/assets';
 import React from 'react';
 
 const TimelineStep: React.FC<{ number: number; title: string; image: string; children: React.ReactNode }> = ({ number, title, image, children }) => (
@@ -36,7 +36,7 @@ const Program: React.FC = () => {
                     <div className="relative">
                         <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{ left: '1.2rem' }}></div>
 
-                        <TimelineStep number={1} title="Arrival & Orientation" image={JourneyImage}>
+                        <TimelineStep number={1} title="Arrival & Orientation" image={arrival}>
                             You'll be greeted at the airport by our friendly staff and transported to your new home. Our comprehensive orientation week covers everything from cultural norms and safety to navigating campus and the city of Accra.
                         </TimelineStep>
 

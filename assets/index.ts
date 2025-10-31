@@ -18,5 +18,7 @@ export {default as officials} from './office.png'
 // exchange program page
 export {default as JourneyImage} from './journey.jpg'
 export {default as AccomodationImage} from './accomodations.webp'
+export {default as arrival} from './kotoka.jpeg'
+
 
 
