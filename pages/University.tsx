@@ -28,8 +28,7 @@ const University: React.FC = () => {
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div>
                        <div className="flex items-center space-x-3 cursor-pointer" >
-                                 <img src={LogoImage} className="h-[50px]"/>
-                                 <span className="text-xl font-extrabold text-teal-700">IYHEA</span>
+                                 <img src={LogoImage} className="h-[70px]"/>
                                </div>
                         
                         <h2 className="text-3xl font-bold text-teal-800 mb-4">Our Valued Academic Partner</h2>
