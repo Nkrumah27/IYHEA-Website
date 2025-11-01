@@ -25,7 +25,7 @@ const University: React.FC = () => {
 
             {/* Partnership Section */}
             <section className="py-20 bg-white">
-                <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div className="container mx-auto  mb-6 px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <div className="flex justify-center">
                        <div className="flex items-center space-x-3 cursor-pointer" >
