@@ -24,5 +24,9 @@ export {default as tour} from './excursion.jpg'
 export {default as community} from './volunteer.jpg'
 export {default as support} from './ongo.jpg'
 
+// accomodation page
+export {default as hostelImage1} from './hostel1.jpg'
+export {default as hostelImage2} from './hostel2.webp'
+export {default as hostelImage3} from './hostel3.webp'
 
 

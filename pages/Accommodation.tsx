@@ -1,4 +1,4 @@
-import { AccomodationImage } from '@/assets';
+import { AccomodationImage, hostelImage, hostelImage1, hostelImage2, hostelImage3 } from '@/assets';
 import React from 'react';
 
 const Accommodation: React.FC = () => {
@@ -30,10 +30,10 @@ const Accommodation: React.FC = () => {
                         </ul>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
-                        <img src={AccomodationImage} alt="Hostel room" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src={AccomodationImage} alt="Hostel common area" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src={AccomodationImage} alt="Hostel exterior" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src={AccomodationImage} alt="Students in hostel" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={hostelImage} alt="Hostel room" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={hostelImage1} alt="Hostel common area" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={hostelImage2} alt="Hostel exterior" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={hostelImage3} alt="Students in hostel" className="rounded-lg shadow-md object-cover w-full h-full" />
                     </div>
                 </div>
             </section>
