@@ -1,5 +1,5 @@
 
-import { AccomodationImage, HomeImage1, LogoImage } from '@/assets';
+import { AccomodationImage, HomeImage1, LogoImage, kaafImage } from '@/assets';
 import React from 'react';
 
 const BenefitCard: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
@@ -13,7 +13,7 @@ const University: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url()` }}>
+            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url(${kaafImage})` }}>
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <div className="max-w-3xl">
@@ -41,7 +41,7 @@ const University: React.FC = () => {
                         </p>
                     </div>
                     <div>
-                        <img src={AccomodationImage} alt="Students at KAAF University" className="rounded-lg shadow-xl" />
+                        <img src={kaafImage} alt="Students at KAAF University" className="rounded-lg shadow-xl" />
                     </div>
                 </div>
             </section>
