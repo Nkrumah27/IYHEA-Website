@@ -26,8 +26,8 @@ export {default as support} from './ongo.jpg'
 
 // accomodation page
 export {default as hostelImage1} from './hostel1.jpg'
-export {default as hostelImage2} from './hostel2.webp'
-export {default as hostelImage3} from './hostel3.webp'
+export {default as hostelImage2} from './hostel2.jpeg'
+export {default as hostelImage3} from './hostel3.jpg'
 export {default as familyImage1} from './family1.jpg'
 export {default as familyImage2} from './family2.jpg'
 
