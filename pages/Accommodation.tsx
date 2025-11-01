@@ -1,4 +1,4 @@
-import { AccomodationImage, hostelImage, hostelImage1, hostelImage2, hostelImage3 } from '@/assets';
+import { AccomodationImage, hostelImage, hostelImage1, hostelImage2, hostelImage3, familyImage, familyImage1, familyImage2 } from '@/assets';
 import React from 'react';
 
 const Accommodation: React.FC = () => {
@@ -42,9 +42,9 @@ const Accommodation: React.FC = () => {
             <section className="py-20 bg-stone-100">
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div className="grid grid-cols-2 gap-4 md:order-1">
-                        <img src={AccomodationImage} alt="Smiling host family" className="rounded-lg shadow-md object-cover w-full h-full" />
-                        <img src={AccomodationImage} alt="Home cooked meal" className="rounded-lg shadow-md object-cover w-full h-full" />
-                         <img src={AccomodationImage} alt="A family home" className="rounded-lg shadow-md object-cover w-full h-full col-span-2" />
+                        <img src={familyImage} alt="Smiling host family" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={familyImage1} alt="Home cooked meal" className="rounded-lg shadow-md object-cover w-full h-full" />
+                         <img src={familyImage2} alt="A family home" className="rounded-lg shadow-md object-cover w-full h-full col-span-2" />
                     </div>
                     <div className="md:order-2">
                         <h2 className="text-3xl font-bold text-teal-800 mb-4">Vetted Host Families</h2>
