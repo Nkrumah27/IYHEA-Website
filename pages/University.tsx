@@ -27,6 +27,10 @@ const University: React.FC = () => {
             <section className="py-20 bg-white">
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div>
+                       <div className="flex items-center space-x-3 cursor-pointer" >
+                                 <img src={LogoImage} className="h-[50px]"/>
+                                 <span className="text-xl font-extrabold text-teal-700">IYHEA</span>
+                               </div>
                         <div className="w-48 h-16 bg-gray-200 flex items-center justify-center rounded-lg mb-6">
                             <span className="font-bold text-gray-500">
                                 <img src={LogoImage} className="w-[30px]" />
