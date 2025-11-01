@@ -31,11 +31,7 @@ const University: React.FC = () => {
                                  <img src={LogoImage} className="h-[50px]"/>
                                  <span className="text-xl font-extrabold text-teal-700">IYHEA</span>
                                </div>
-                        <div className="w-48 h-16 bg-gray-200 flex items-center justify-center rounded-lg mb-6">
-                            <span className="font-bold text-gray-500">
-                                <img src={LogoImage} className="w-[30px]" />
-                            </span>
-                        </div>
+                        
                         <h2 className="text-3xl font-bold text-teal-800 mb-4">Our Valued Academic Partner</h2>
                         <p className="text-gray-600 leading-relaxed mb-4">
                             KAAF University College is a premier private university in Ghana, renowned for its commitment to academic excellence, innovation, and producing career-ready graduates. Through our exclusive partnership, IYHEA students gain full access to their accredited programs and vibrant campus community.
