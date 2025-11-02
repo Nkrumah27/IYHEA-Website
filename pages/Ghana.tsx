@@ -1,5 +1,5 @@
 
-import { AccomodationImage, HomeImage1 } from '@/assets';
+import { foodImage, HomeImage1, kwameImage } from '@/assets';
 import React from 'react';
 
 interface GhanaProps {
@@ -38,7 +38,7 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
                         {categories.map((cat, index) => (
                              <ImageCard 
                                 key={cat}
-                                image={`${HomeImage1}`} 
+                                image={`${kwameImage}`} 
                                 title={cat} 
                                 onClick={() => selectCategory(cat)}
                              />

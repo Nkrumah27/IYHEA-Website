@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1 } from './assets';
+import { FaceImage, HomeImage1, bankuImage, castleImage, fufuImage, homowoImage, jollofImage, kakumImage, moleImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -87,17 +87,17 @@ export const FAQ_DATA: FaqCategory[] = [
 
 export const GHANA_DETAILS: GhanaCategoryData = {
   "Tourist Sites": [
-    { name: "Cape Coast Castle", description: "A historic castle known for its role in the transatlantic slave trade, offering poignant tours and a deep dive into Ghana's history.", image: HomeImage1 },
-    { name: "Kakum National Park", description: "Famous for its canopy walkway suspended over 30 meters above the rainforest floor, providing breathtaking views of the treetops and wildlife.", image: HomeImage1 },
-    { name: "Mole National Park", description: "Ghana's largest wildlife refuge, where you can go on a walking safari to see elephants, antelopes, monkeys, and various bird species in their natural habitat.", image: HomeImage1 },
+    { name: "Cape Coast Castle", description: "A historic castle known for its role in the transatlantic slave trade, offering poignant tours and a deep dive into Ghana's history.", image: castleImage },
+    { name: "Kakum National Park", description: "Famous for its canopy walkway suspended over 30 meters above the rainforest floor, providing breathtaking views of the treetops and wildlife.", image: kakumImage },
+    { name: "Mole National Park", description: "Ghana's largest wildlife refuge, where you can go on a walking safari to see elephants, antelopes, monkeys, and various bird species in their natural habitat.", image: moleImage },
   ],
   "Food & Cuisine": [
-    { name: "Jollof Rice", description: "A beloved West African one-pot rice dish cooked in a flavorful tomato-based sauce with spices. A must-try staple and a source of friendly national rivalry.", image: HomeImage1 },
-    { name: "Banku and Tilapia", description: "A fermented corn and cassava dough served with grilled tilapia. The dish is often accompanied by a spicy pepper sauce (shito) and onions.", image: HomeImage1 },
-    { name: "Fufu", description: "A staple food made from pounded cassava and plantains, typically served with a variety of rich and savory soups like groundnut soup or light soup.", image: HomeImage1 },
+    { name: "Ghana Jollof", description: "A beloved West African one-pot rice dish cooked in a flavorful tomato-based sauce with spices. A must-try staple and a source of friendly national rivalry.", image: jollofImage },
+    { name: "Banku and Tilapia", description: "A fermented corn and cassava dough served with grilled tilapia. The dish is often accompanied by a spicy pepper sauce (shito) and onions.", image: bankuImage },
+    { name: "Fufu", description: "A staple food made from pounded cassava and plantains, typically served with a variety of rich and savory soups like groundnut soup or light soup.", image: fufuImage },
   ],
   "Culture & Festivals": [
-     { name: "Homowo Festival", description: "Celebrated by the Ga people, this festival 'hoots at hunger' and involves traditional drumming, dancing, and the sprinkling of 'kpokpoi', a special festive food.", image: HomeImage1 },
+     { name: "Homowo Festival", description: "Celebrated by the Ga people, this festival 'hoots at hunger' and involves traditional drumming, dancing, and the sprinkling of 'kpokpoi', a special festive food.", image: homowoImage },
      { name: "Kente Cloth Weaving", description: "Discover the intricate art of Kente weaving, a symbolic textile traditionally worn by Ashanti royalty. Each pattern and color has a specific meaning.", image: HomeImage1 },
   ],
   "The People": [

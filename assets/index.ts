@@ -34,6 +34,49 @@ export {default as familyImage2} from './family2.jpg'
 // kaaf page
 export {default as kaafLogo} from './klogo.png'
 
+//discover Ghana
+export {default as aburiImage} from './aburi.jpg'
+export {default as afadaImage} from './afada.png'
+export {default as bankuImage} from './banku.jpeg'
+export {default as beansImage} from './beans.jpeg'
+export {default as castleImage} from './castle.jpg'
+export {default as foodImage} from './food.jpeg'
+export {default as fufuImage} from './fufu.jpg'
+export {default as homowoImage} from './homowo.webp'
+export {default as independenceImage} from './independence.jpg'
+export {default as jollofImage} from './jollof.jpg'
+export {default as kakumImage} from './kakum.jpg'
+export {default as kenkeyImage} from './kenkey.jpg'
+export {default as kwameImage} from './kwame.png'
+export {default as labadiImage} from './labadi.jpg'
+export {default as lakeImage} from './lake.jpg'
+export {default as larabangaImage} from './larabanga.jpeg'
+export {default as moleImage} from './mole.jpg'
+export {default as nzulezuImage} from './nzulezu.jpg'
+export {default as pagaImage} from './paga.jpeg'
+export {default as waakyeImage} from './waakye.webp'
+export {default as wliImage} from './wli.jpeg'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
