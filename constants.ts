@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1, bankuImage, castleImage, fufuImage, homowoImage, jollofImage, kakumImage, kenteImage, moleImage } from './assets';
+import { FaceImage, HomeImage1, asanteImage, bankuImage, castleImage, fufuImage, homowoImage, hospitalityImage, jollofImage, kakumImage, kejetiaImage, kenteImage, makolaImage, moleImage, monkeyImage, wliImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -101,16 +101,16 @@ export const GHANA_DETAILS: GhanaCategoryData = {
      { name: "Kente Cloth Weaving", description: "Discover the intricate art of Kente weaving, a symbolic textile traditionally worn by Ashanti royalty. Each pattern and color has a specific meaning.", image: kenteImage },
   ],
   "The People": [
-     { name: "Ashanti People", description: "One of the major ethnic groups in Ghana, located in the central region. They are known for their rich history, the Golden Stool, and vibrant cultural traditions.", image: HomeImage1 },
-     { name: "Warm Hospitality", description: "Ghanaians are renowned for their friendliness and welcoming nature, often referred to with the phrase 'Akwaaba' (Welcome).", image: HomeImage1 },
+     { name: "Ashanti People", description: "One of the major ethnic groups in Ghana, located in the central region. They are known for their rich history, the Golden Stool, and vibrant cultural traditions.", image: asanteImage },
+     { name: "Warm Hospitality", description: "Ghanaians are renowned for their friendliness and welcoming nature, often referred to with the phrase 'Akwaaba' (Welcome).", image: hospitalityImage },
   ],
     "Nature & Wildlife": [
-     { name: "Wli Waterfalls", description: "The highest waterfall in Ghana, located in the Volta Region. The scenic hike to the falls takes you through lush greenery and across flowing streams.", image: HomeImage1 },
-     { name: "Boabeng-Fiema Monkey Sanctuary", description: "A unique community where Mona and Black and White Colobus monkeys are considered sacred and live in harmony with the local people.", image: HomeImage1 },
+     { name: "Wli Waterfalls", description: "The highest waterfall in Ghana, located in the Volta Region. The scenic hike to the falls takes you through lush greenery and across flowing streams.", image: wliImage },
+     { name: "Boabeng-Fiema Monkey Sanctuary", description: "A unique community where Mona and Black and White Colobus monkeys are considered sacred and live in harmony with the local people.", image: monkeyImage },
   ],
     "Vibrant Markets": [
-     { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: HomeImage1 },
-     { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: HomeImage1 },
+     { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
+     { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
   ],
 };
 

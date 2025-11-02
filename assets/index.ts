@@ -57,6 +57,23 @@ export {default as pagaImage} from './paga.jpeg'
 export {default as waakyeImage} from './waakye.webp'
 export {default as kenteImage} from './kente.webp'
 export {default as otumfuoImage} from './otumfuo.jpg'
+export {default as asanteImage} from './asante.jpg'
+export {default as hospitalityImage} from './hospitality.png'
+export {default as kejetiaImage} from './kejetia.jpg'
+export {default as makolaImage} from './makola.jpg'
+export {default as marketImage} from './market.webp'
+export {default as monkeyImage} from './monkey.jpg'
+export {default as natureImage} from './nature.jpg'
+export {default as peopleImage} from './people.jpg'
+export {default as wliImage} from './wli.jpeg'
+
+
+
+
+
+
+
+
 
 
 

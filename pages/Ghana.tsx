@@ -1,5 +1,5 @@
 
-import { foodImage, homowoImage, kwameImage, castleImage, bankuImage, otumfuoImage } from '@/assets';
+import { castleImage, bankuImage, otumfuoImage, peopleImage, natureImage, marketImage } from '@/assets';
 import React from 'react';
 
 interface GhanaProps {
@@ -21,9 +21,9 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
     const categories = [ { title: "Tourist Sites", image: castleImage },
     { title: "Food & Cuisine", image: bankuImage },
     { title: "Culture & Festivals", image: otumfuoImage },
-    { title: "The People", image: homowoImage },
-    { title: "Nature & Wildlife", image: kwameImage },
-    { title: "Vibrant Markets", image: kwameImage },];
+    { title: "The People", image: peopleImage },
+    { title: "Nature & Wildlife", image: natureImage },
+    { title: "Vibrant Markets", image: marketImage },];
 
     return (
         <div>
