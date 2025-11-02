@@ -55,7 +55,8 @@ export {default as moleImage} from './mole.jpg'
 export {default as nzulezuImage} from './nzulezu.jpg'
 export {default as pagaImage} from './paga.jpeg'
 export {default as waakyeImage} from './waakye.webp'
-export {default as wliImage} from './wli.jpeg'
+export {default as kenteImage} from './kente.webp'
+export {default as otumfuoImage} from './otumfuo.jpg'
 
 
 

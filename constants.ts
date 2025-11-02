@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1, bankuImage, castleImage, fufuImage, homowoImage, jollofImage, kakumImage, moleImage } from './assets';
+import { FaceImage, HomeImage1, bankuImage, castleImage, fufuImage, homowoImage, jollofImage, kakumImage, kenteImage, moleImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -98,7 +98,7 @@ export const GHANA_DETAILS: GhanaCategoryData = {
   ],
   "Culture & Festivals": [
      { name: "Homowo Festival", description: "Celebrated by the Ga people, this festival 'hoots at hunger' and involves traditional drumming, dancing, and the sprinkling of 'kpokpoi', a special festive food.", image: homowoImage },
-     { name: "Kente Cloth Weaving", description: "Discover the intricate art of Kente weaving, a symbolic textile traditionally worn by Ashanti royalty. Each pattern and color has a specific meaning.", image: HomeImage1 },
+     { name: "Kente Cloth Weaving", description: "Discover the intricate art of Kente weaving, a symbolic textile traditionally worn by Ashanti royalty. Each pattern and color has a specific meaning.", image: kenteImage },
   ],
   "The People": [
      { name: "Ashanti People", description: "One of the major ethnic groups in Ghana, located in the central region. They are known for their rich history, the Golden Stool, and vibrant cultural traditions.", image: HomeImage1 },
