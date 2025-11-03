@@ -101,7 +101,7 @@ export const GHANA_DETAILS: GhanaCategoryData = {
      { name: "Kente Cloth Weaving", description: "Discover the intricate art of Kente weaving, a symbolic textile traditionally worn by Ashanti royalty. Each pattern and color has a specific meaning.", image: kenteImage },
   ],
   "The People": [
-     { name: "Ashanti People", description: "One of the major ethnic groups in Ghana, located in the central region. They are known for their rich history, the Golden Stool, and vibrant cultural traditions.", image: asanteImage },
+     { name: "Ashanti People", description: "One of the major ethnic groups in Ghana, located in the Ashanti Region. They are known for their rich history, the Golden Stool, and vibrant cultural traditions.", image: asanteImage },
      { name: "Warm Hospitality", description: "Ghanaians are renowned for their friendliness and welcoming nature, often referred to with the phrase 'Akwaaba' (Welcome).", image: hospitalityImage },
   ],
     "Nature & Wildlife": [
