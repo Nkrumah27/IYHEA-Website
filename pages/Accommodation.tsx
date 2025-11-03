@@ -5,13 +5,19 @@ const Accommodation: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: `url()` }}>
+           {/* <section className="relative bg-cover bg-center text-white py-24 text-center" style={{ backgroundImage: `url()` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Safe, Comfortable, and Community-Focused Living</h1>
                     <p className="text-xl mt-4 max-w-3xl mx-auto">Your home away from home in Ghana, designed for your comfort and safety.</p>
                 </div>
-            </section>
+            </section>*/}
+             <section className="bg-teal-700 text-white py-20 text-center">
+        <div className="container mx-auto px-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold">Safe, Comfortable, and Community-Focused Living</h1>
+          <p className="text-xl mt-4 max-w-3xl mx-auto">Your home away from home in Ghana, designed for your comfort and safety.</p>
+        </div>
+      </section>
 
             {/* International Youth Hostels Section */}
             <section className="py-20 bg-white">

@@ -22,13 +22,19 @@ const Program: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-teal-700 text-white py-20 text-center" style={{ backgroundImage: `url()`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay' }}>
+            {/*<section className="relative bg-teal-700 text-white py-20 text-center" style={{ backgroundImage: `url()`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay' }}>
                 <div className="bg-black/50 absolute inset-0"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">A Structured Journey of Discovery</h1>
                     <p className="text-xl mt-4 max-w-3xl mx-auto">From arrival to departure, your experience is thoughtfully planned to maximize learning, growth, and enjoyment.</p>
                 </div>
-            </section>
+            </section>*/}
+             <section className="bg-teal-700 text-white py-20 text-center">
+        <div className="container mx-auto px-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold">A Structured Journey of Discovery</h1>
+          <p className="text-xl mt-4 max-w-3xl mx-auto">From arrival to departure, your experience is thoughtfully planned to maximize learning, growth, and enjoyment.</p>
+        </div>
+      </section>
 
             {/* Timeline Section */}
             <section className="py-20 bg-stone-100">

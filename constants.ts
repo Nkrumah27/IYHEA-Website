@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1, asanteImage, bankuImage, castleImage, fufuImage, homowoImage, hospitalityImage, jollofImage, kakumImage, kejetiaImage, kenteImage, makolaImage, moleImage, monkeyImage, wliImage } from './assets';
+import { FaceImage, HomeImage1, accraImage, asanteImage, bankuImage, castleImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, kaaf2Image, kakumImage, kejetiaImage, kenteImage, makolaImage, moleImage, monkeyImage, wliImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -120,7 +120,7 @@ export const BLOG_POSTS: BlogPost[] = [
         author: "Jessica L.", 
         date: "October 10, 2023", 
         excerpt: "Landing in Accra was an explosion of senses. The warmth, the vibrant colors, the friendly faces... here's a recap of my first seven days adapting to a new, wonderful world.", 
-        image: HomeImage1,
+        image: accraImage,
         content: "The moment I stepped off the plane at Kotoka International Airport, I was greeted by a wave of warm, humid air – a stark contrast to the autumn chill I'd left behind. That warmth extended to the people. My program coordinator met me with a huge smile and a sign bearing my name, and the feeling of being welcomed immediately washed away any travel anxieties. The drive to the hostel was an experience in itself. The city of Accra is alive with a constant, energetic hum. Brightly colored tro-tros (minibuses) weave through traffic, street vendors sell everything from fresh pineapple to phone chargers, and music seems to drift from every corner. Our orientation week was packed but essential. We learned key phrases in Twi ('Akwaaba!' for welcome is my favorite), had lessons on everything from bargaining respectfully at the market to navigating the public transport system. It was a crash course in Ghanaian culture that felt more like an exciting adventure than a lecture. By the end of the week, I had not only settled into my new home but had also shared my first plate of Jollof rice with new friends, learned to laugh at my own fumbling attempts at the local handshake, and felt a profound sense of excitement for the semester ahead. This is just the beginning, but Ghana already feels like a second home."
     },
     { 
@@ -128,7 +128,7 @@ export const BLOG_POSTS: BlogPost[] = [
         author: "David C.", 
         date: "October 15, 2023", 
         excerpt: "Everyone talks about Jollof rice, but Ghanaian cuisine is so much more. I explored street food stalls and local 'chop bars' to find the real, delicious deal.", 
-        image: HomeImage1,
+        image: food2Image,
         content: "Before coming to Ghana, my knowledge of the food was limited to one famous dish: Jollof rice. And while the Jollof here is undeniably incredible (and a matter of national pride!), I made it my mission to explore the full depth of Ghanaian cuisine. My culinary journey began on the streets. The aroma of roasting plantains, called 'kofi brokeman' (a nod to it being an affordable 'poor man's' meal), is everywhere. It's sweet, slightly smoky, and utterly addictive when paired with roasted groundnuts. Then there's the kelewele – spiced, fried plantain cubes that are the perfect blend of sweet and spicy. I quickly learned to never walk past a kelewele vendor without buying a small bag. Moving on from snacks, I ventured into 'chop bars,' the local eateries that serve up hearty, traditional meals. This is where I discovered banku, a fermented corn and cassava dough, served with grilled tilapia and a fiery pepper sauce called shito. The combination of textures and flavors was unlike anything I'd ever had. Fufu, made from pounded cassava and plantain, served with a rich groundnut soup, has become my go-to comfort food. It's a communal, hands-on experience that is as much about the process as the taste. Exploring the food of Ghana is to explore its culture, and I'm eating it all up, one delicious bite at a time."
     },
     { 
@@ -136,7 +136,7 @@ export const BLOG_POSTS: BlogPost[] = [
         author: "Maria G.", 
         date: "October 22, 2023", 
         excerpt: "From making friends with local students to finding the best study spots in the library, here are my tips for thriving academically and socially in a new environment.", 
-        image: HomeImage1,
+        image: kaaf2Image,
         content: "The first day on the KAAF University campus felt like a big step. It's a beautiful, modern campus bustling with students. Initially, I was a bit intimidated, but that feeling quickly faded. The Ghanaian students are incredibly friendly and open. I found that simply asking for directions to a classroom would often turn into a long conversation and an invitation to join a study group. My advice to any new exchange student is to be proactive. Don't wait for people to come to you. Join a club – I joined the debate club and the cultural dance troupe, which have been amazing ways to make friends and learn new skills. Academically, the classes are engaging. The lecturers encourage participation, and I've been fascinated by the local perspectives on global topics in my international relations courses. The library has become my sanctuary for focused study; it's well-equipped and has quiet corners perfect for getting work done. But campus life isn't all about studying. The common areas are always full of students chatting, playing games, and collaborating on projects. There's a real sense of community here. Fully immersing myself in campus life has been key to my experience. It's not just about earning credits; it's about building connections and understanding a new educational culture from the inside out."
     },
 ];

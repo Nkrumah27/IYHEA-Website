@@ -33,6 +33,8 @@ export {default as familyImage2} from './family2.jpg'
 
 // kaaf page
 export {default as kaafLogo} from './klogo.png'
+export {default as kaaf3Image} from './kaaf3.jpg'
+
 
 //discover Ghana
 export {default as aburiImage} from './aburi.jpg'
@@ -66,6 +68,16 @@ export {default as monkeyImage} from './monkey.jpg'
 export {default as natureImage} from './nature.jpg'
 export {default as peopleImage} from './people.jpg'
 export {default as wliImage} from './wli.jpeg'
+export {default as flag2Image} from './flag2.jpg'
+
+
+//Blog Page
+export {default as accraImage} from './Accra.jpg'
+export {default as food2Image} from './food2.png'
+export {default as kaaf2Image} from './kaaf2.jpeg'
+
+
+
 
 
 

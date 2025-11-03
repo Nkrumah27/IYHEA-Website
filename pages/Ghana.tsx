@@ -1,5 +1,5 @@
 
-import { castleImage, bankuImage, otumfuoImage, peopleImage, natureImage, marketImage } from '@/assets';
+import { castleImage, bankuImage, otumfuoImage, peopleImage, natureImage, marketImage, flag2Image } from '@/assets';
 import React from 'react';
 
 interface GhanaProps {
@@ -28,7 +28,7 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-28 text-center" style={{ backgroundImage: `url()` }}>
+            <section className="relative bg-cover bg-center text-white py-28 text-center" style={{ backgroundImage: `url(${flag2Image})` }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold">Explore the Vibrant Heart of West Africa</h1>

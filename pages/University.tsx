@@ -1,5 +1,5 @@
 
-import { AccomodationImage, HomeImage1, kaafLogo, kaafImage } from '@/assets';
+import { AccomodationImage, HomeImage1, kaafLogo, kaafImage, kaaf2Image, kaaf3Image } from '@/assets';
 import React from 'react';
 
 const BenefitCard: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
@@ -13,7 +13,7 @@ const University: React.FC = () => {
     return (
         <div>
             {/* Page Header */}
-            <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url(${kaafImage})` }}>
+          {/*  <section className="relative bg-cover bg-center text-white py-24" style={{ backgroundImage: `url(${kaaf3Image})` }}>
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto px-6 relative z-10">
                     <div className="max-w-3xl">
@@ -21,7 +21,13 @@ const University: React.FC = () => {
                         <p className="text-xl mt-4">Partnering with KAAF University College to provide you with a world-class education.</p>
                     </div>
                 </div>
-            </section>
+            </section>*/}
+             <section className="bg-teal-700 text-white py-20 text-center">
+        <div className="container mx-auto px-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold">Academic Excellence at a Leading Ghanaian University</h1>
+          <p className="text-xl mt-4 max-w-3xl mx-auto">Partnering with KAAF University College to provide you with a world-class education.</p>
+        </div>
+      </section>
 
             {/* Partnership Section */}
             <section className="py-20 bg-white">
@@ -73,7 +79,7 @@ const University: React.FC = () => {
                         </BenefitCard>
                     </div>
                      <div className="text-center mt-12">
-                         <a href="#" target="_blank" rel="noopener noreferrer" className="bg-teal-600 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-700 transition-all duration-300">
+                         <a href="https://www.kaafuni.edu.gh/" target="_blank" rel="noopener noreferrer" className="bg-teal-600 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-700 transition-all duration-300">
                             Visit KAAF University's Website
                         </a>
                     </div>
