@@ -61,7 +61,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
           </button>
           <div className="hidden lg:block">
               <button onClick={() => handleNavClick('Contact')} className="bg-amber-500 text-white font-bold py-2 px-6 rounded-full hover:bg-amber-600 transition-all duration-300 transform hover:scale-105">
-                  Apply Now
+                  Donate
               </button>
           </div>
           <div className="lg:hidden">
@@ -111,7 +111,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, openSearch }) =>
               ))
             }
              <button onClick={() => handleNavClick('Contact')} className="bg-amber-500 text-white font-bold py-2 px-6 rounded-full hover:bg-amber-600 transition-all duration-300">
-                Apply Now
+                Donate
             </button>
           </nav>
         </div>

@@ -47,7 +47,7 @@ const Program: React.FC = () => {
                         </TimelineStep>
 
                         <TimelineStep number={2} title="Academic Life" image={academic}>
-                            Immerse yourself in your studies at KAAF University. You'll attend classes alongside Ghanaian students, engage with expert faculty, and have access to the university's modern library and campus facilities.
+                            Immerse yourself in your studies at one of our partnered Universities. You'll attend classes alongside Ghanaian students, engage with expert faculty, and have access to the university's modern library and campus facilities.
                         </TimelineStep>
 
                         <TimelineStep number={3} title="Cultural Excursions" image={tour}>

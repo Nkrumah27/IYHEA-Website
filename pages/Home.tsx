@@ -31,7 +31,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Your Journey Begins Here</h1>
-          <p className="text-lg md:text-2xl mt-4 max-w-3xl">Experience world-class academics at KAAF University and deep cultural immersion in a safe, supportive community.</p>
+          <p className="text-lg md:text-2xl mt-4 max-w-3xl">Experience world-class academics at with IYHEA and deep cultural immersion in a safe, supportive community.</p>
           <div className="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button onClick={() => navigate('The Exchange Program')} className="bg-teal-600 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-700 transition-all duration-300 transform hover:scale-105">
               Explore the Program
@@ -74,7 +74,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                     <img src={familyImage} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
                 </div>
             </div>
-            <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center mt-20">
+           {/* <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center mt-20">
                 <div className="lg:order-2 text-center lg:text-left">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-teal-800">A Partnership for Your Success</h2>
                     <p className="text-lg text-gray-600 mb-6">Our exclusive partnership with KAAF University College provides you access to top-tier academic programs, modern facilities, and a vibrant campus life alongside local Ghanaian students.</p>
@@ -86,8 +86,21 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
                         <p className="font-bold text-lg">KAAF University</p>
                     </div>
                 </div>
-            </div>
+            </div>*/}
         </section>
+         <section className="py-20 bg-stone-100">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-teal-800">A Partnership for Your Success</h2>
+          <div className="grid md:grid-cols-3 gap-8 justify-center">
+                  <div className="md:col-span-1 flex justify-center">
+
+            <FeatureCard title="Guaranteed Safety" iconClasses="bg-teal-100 text-teal-600" icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 20.944a11.955 11.955 0 0118-8.984z" /></svg>}>
+              24/7 support, secure housing, and comprehensive orientation to ensure your peace of mind.
+            </FeatureCard>
+            /</div>
+          </div>
+        </div>
+      </section>
 
       {/* Testimonial Section */}
       <section className="py-20 bg-teal-700 bg-opacity-80" style={{backgroundImage: "url('https://www.transparenttextures.com/patterns/az-subtle.png')"}}>
