@@ -1,7 +1,7 @@
 import React from 'react';
 import TestimonialSlider from '../components/TestimonialSlider';
 import { Page } from '../App';
-import { bgImage } from '@/assets';
+import { bgImage, kaafLogo } from '@/assets';
 import { groupImage } from '@/assets';
 import { hostelImage } from '@/assets';
 import { familyImage } from '@/assets'; 
@@ -94,8 +94,10 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
           <div className="grid md:grid-cols-3 gap-8 justify-center">
                   <div className="md:col-span-1 flex justify-center">
 
-            <FeatureCard title="Guaranteed Safety" iconClasses="bg-teal-100 text-teal-600" icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 20.944a11.955 11.955 0 0118-8.984z" /></svg>}>
-              24/7 support, secure housing, and comprehensive orientation to ensure your peace of mind.
+            <FeatureCard title="Kaaf University College" iconClasses="bg-teal-100 text-teal-600" icon={
+              <img src={kaafLogo} alt="Guaranteed Safety"/>
+
+              }>
             </FeatureCard>
             /</div>
           </div>
