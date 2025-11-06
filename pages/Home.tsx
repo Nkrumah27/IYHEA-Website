@@ -31,7 +31,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Your Journey Begins Here</h1>
-          <p className="text-lg md:text-2xl mt-4 max-w-3xl">Experience world-class academics at with IYHEA and deep cultural immersion in a safe, supportive community.</p>
+          <p className="text-lg md:text-2xl mt-4 max-w-3xl">Experience world-class academics with IYHEA and deep cultural immersion in a safe, supportive community.</p>
           <div className="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button onClick={() => navigate('The Exchange Program')} className="bg-teal-600 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-700 transition-all duration-300 transform hover:scale-105">
               Explore the Program
