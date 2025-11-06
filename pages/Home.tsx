@@ -96,10 +96,9 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
 
             <FeatureCard title="Kaaf University College" iconClasses="bg-teal-100 text-teal-600" icon={
               <img src={kaafLogo} alt="Guaranteed Safety"/>
-
               }>
             </FeatureCard>
-            /</div>
+            </div>
           </div>
         </div>
       </section>
