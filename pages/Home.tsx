@@ -1,7 +1,7 @@
 import React from 'react';
 import TestimonialSlider from '../components/TestimonialSlider';
 import { Page } from '../App';
-import { bgImage, kaafLogo } from '@/assets';
+import { bgImage, kaafLogo, ugLogo, umatLogo, upsaLogo } from '@/assets';
 import { groupImage } from '@/assets';
 import { hostelImage } from '@/assets';
 import { familyImage } from '@/assets'; 
@@ -52,7 +52,7 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
               24/7 support, secure housing, and comprehensive orientation to ensure your peace of mind.
             </FeatureCard>
             <FeatureCard title="Academic Excellence" iconClasses="bg-green-100 text-green-700" icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z" /></svg>}>
-              Earn credits at the prestigious KAAF University, a leader in innovation and research in Ghana.
+              Earn credits at one of our prestigious partnered Universities in Ghana.
             </FeatureCard>
             <FeatureCard title="Vibrant Community" iconClasses="bg-orange-100 text-orange-600" icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.124-1.282-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.124-1.282.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>}>
               Live with fellow international students or a local host family for a deep cultural immersion.
@@ -90,15 +90,28 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
         </section>
          <section className="py-20 bg-stone-100">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-teal-800">A Partnership for Your Success</h2>
-          <div className="grid md:grid-cols-3 gap-8 justify-center">
-                  <div className="md:col-span-1 flex justify-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-teal-800">Our partnered Universities</h2>
+          `<div className="grid md:grid-cols-3 gap-8">
 
             <FeatureCard title="Kaaf University College" iconClasses="bg-teal-100 text-teal-600" icon={
-              <img src={kaafLogo} alt="Guaranteed Safety"/>
+              <img src={kaafLogo} alt="Kaaf"/>
               }>
             </FeatureCard>
-            </div>
+            
+            <FeatureCard title="University of Ghana" iconClasses="bg-teal-100 text-teal-600" icon={
+              <img src={ugLogo} alt="UG"/>
+              }>
+            </FeatureCard>
+            
+            <FeatureCard title="University of Mines and Technology, Tarkwa" iconClasses="bg-teal-100 text-teal-600" icon={
+              <img src={umatLogo} alt="UmaT"/>
+              }>
+            </FeatureCard>
+            
+            <FeatureCard title="University of Professional Studies, Accra" iconClasses="bg-teal-100 text-teal-600" icon={
+              <img src={upsaLogo} alt="UPSA"/>
+              }>
+            </FeatureCard>
           </div>
         </div>
       </section>

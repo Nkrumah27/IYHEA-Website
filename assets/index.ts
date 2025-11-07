@@ -31,9 +31,14 @@ export {default as hostelImage3} from './hostel3.jpg'
 export {default as familyImage1} from './family1.jpg'
 export {default as familyImage2} from './family2.jpg'
 
-// kaaf page
+// logo
 export {default as kaafLogo} from './klogo.png'
 export {default as kaaf3Image} from './kaaf3.jpg'
+export {default as ugLogo} from './uglogo.png'
+export {default as umatLogo} from './umatlogo.png'
+export {default as upsaLogo} from './upsalogo.png'
+
+
 
 
 //discover Ghana
