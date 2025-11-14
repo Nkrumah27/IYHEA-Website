@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1, accraImage, asanteImage, bankuImage, castleImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, kaaf2Image, kakumImage, kejetiaImage, kenteImage, makolaImage, moleImage, monkeyImage, wliImage } from './assets';
+import { FaceImage, HomeImage1, accraImage, asanteImage, bankuImage, castleImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, jollofImage1, kaaf2Image, kakumImage, kejetiaImage, kenteImage, makolaImage, moleImage, monkeyImage, wliImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -92,7 +92,7 @@ export const GHANA_DETAILS: GhanaCategoryData = {
     { name: "Mole National Park", description: "Ghana's largest wildlife refuge, where you can go on a walking safari to see elephants, antelopes, monkeys, and various bird species in their natural habitat.", image: moleImage },
   ],
   "Food & Cuisine": [
-    { name: "Ghana Jollof", description: "A beloved West African one-pot rice dish cooked in a flavorful tomato-based sauce with spices. A must-try staple and a source of friendly national rivalry.", image: jollofImage },
+    { name: "Ghana Jollof", description: "A beloved West African one-pot rice dish cooked in a flavorful tomato-based sauce with spices. A must-try staple and a source of friendly national rivalry.", image: jollofImage1 },
     { name: "Banku and Tilapia", description: "A fermented corn and cassava dough served with grilled tilapia. The dish is often accompanied by a spicy pepper sauce (shito) and onions.", image: bankuImage },
     { name: "Fufu", description: "A staple food made from pounded cassava and plantains, typically served with a variety of rich and savory soups like groundnut soup or light soup.", image: fufuImage },
   ],
