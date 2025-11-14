@@ -1,4 +1,4 @@
-import {  hostelImage, hostelImage1, hostelImage2, hostelImage3, familyImage, familyImage1, familyImage2 } from '@/assets';
+import {  hostelImage, hostelImage1, hostelImage2, hostelImage3, familyImage, familyImage1, familyImage2, familyImage3 } from '@/assets';
 import React from 'react';
 
 const Accommodation: React.FC = () => {
@@ -19,7 +19,7 @@ const Accommodation: React.FC = () => {
         </div>
       </section>
 
-            {/* International Youth Hostels Section */}
+            {/* International Youth Hostels Section 
             <section className="py-20 bg-white">
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div>
@@ -42,9 +42,33 @@ const Accommodation: React.FC = () => {
                         <img src={hostelImage3} alt="Students in hostel" className="rounded-lg shadow-md object-cover w-full h-full" />
                     </div>
                 </div>
+            </section>*/}
+
+             {/* International Youth Hostels Section */}
+            <section className="py-20 bg-white">
+                <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 className="text-3xl font-bold text-teal-800 mb-4">Vetted Host Families</h2>
+                        <p className="text-gray-600 leading-relaxed mb-6">
+                            For the ultimate cultural immersion, choose to live with one of our carefully selected Ghanaian host families. You'll become part of a local family, share home-cooked meals, practice the local language, and experience daily life in Ghana firsthand.                        </p>
+                        <ul className="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Rigorous screening and background checks for all families</li>
+                            <li>Private, comfortable room in a family home</li>
+                            <li>Daily meals shared with the family</li>
+                            <li>Unparalleled opportunity for language and cultural learning</li>
+                            <li>A warm, supportive, and authentic home environment</li>
+                        </ul>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                        <img src={familyImage3} alt="Hostel room" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={familyImage} alt="Hostel common area" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={familyImage1} alt="Hostel exterior" className="rounded-lg shadow-md object-cover w-full h-full" />
+                        <img src={familyImage2} alt="Students in hostel" className="rounded-lg shadow-md object-cover w-full h-full" />
+                    </div>
+                </div>
             </section>
 
-            {/* Vetted Host Families Section */}
+            {/* Vetted Host Families Section 
             <section className="py-20 bg-stone-100">
                 <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                     <div className="grid grid-cols-2 gap-4 md:order-1">
@@ -66,7 +90,7 @@ const Accommodation: React.FC = () => {
                         </ul>
                     </div>
                 </div>
-            </section>
+            </section>*/}
         </div>
     );
 };

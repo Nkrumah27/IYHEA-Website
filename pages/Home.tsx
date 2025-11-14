@@ -1,7 +1,7 @@
 import React from 'react';
 import TestimonialSlider from '../components/TestimonialSlider';
 import { Page } from '../App';
-import { bgImage, kaafLogo, ugLogo, umatLogo, upsaLogo } from '@/assets';
+import { bgImage, familyImage2, familyImage3, kaafLogo, ugLogo, umatLogo, upsaLogo } from '@/assets';
 import { groupImage } from '@/assets';
 import { hostelImage } from '@/assets';
 import { familyImage } from '@/assets'; 
@@ -66,11 +66,11 @@ const Home: React.FC<HomeProps> = ({ navigate }) => {
             <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
                  <div className="text-center lg:text-left">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-teal-800">Your Home in Ghana</h2>
-                    <p className="text-lg text-gray-600 mb-6">Choose between our modern, secure youth hostels or an immersive stay with a vetted Ghanaian host family. Both options provide a safe and welcoming environment for you to thrive.</p>
+                    <p className="text-lg text-gray-600 mb-6">Experience an immersive stay with a fully vetted Ghanaian host family, providing a safe, welcoming, and culturally rich environment for you to thrive.</p>
                     <button onClick={() => navigate('Accommodation')} className="text-teal-600 font-bold hover:text-teal-800 transition-colors">Learn about accommodation &rarr;</button>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src={hostelImage} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
+                    <img src={familyImage3} alt="Hostel" className="rounded-lg shadow-lg object-cover w-full h-full"/>
                     <img src={familyImage} alt="Host Family" className="rounded-lg shadow-lg object-cover w-full h-full mt-8"/>
                 </div>
             </div>

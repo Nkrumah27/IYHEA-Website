@@ -30,6 +30,8 @@ export {default as hostelImage2} from './hostel2.jpeg'
 export {default as hostelImage3} from './hostel3.jpg'
 export {default as familyImage1} from './family1.jpg'
 export {default as familyImage2} from './family2.jpg'
+export {default as familyImage3} from './family3.jpg'
+
 
 // logo
 export {default as kaafLogo} from './klogo.png'
