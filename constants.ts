@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1, accraImage, asanteImage, bankuImage, castleImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, jollofImage1, kaaf2Image, kakumImage, kejetiaImage, kenteImage, makolaImage, moleImage, monkeyImage, wliImage } from './assets';
+import { FaceImage, HomeImage1, accraImage, afadaImage, ananseImage, asanteImage, bankuImage, castleImage, chieftancyImage, danceImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, jollofImage1, kaaf2Image, kakumImage, kejetiaImage, kenteImage, kwameImage, lakeImage, makolaImage, moleImage, monkeyImage, natureImage, waakyeImage, wliImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -87,19 +87,28 @@ export const FAQ_DATA: FaqCategory[] = [
 
 export const GHANA_DETAILS: GhanaCategoryData = {
   "Tourist Sites": [
+    { name: "Kwame Nkrumah Mausoleum", description: "The final resting place of Ghana’s first president, featuring striking architecture and historical exhibits.", image: kwameImage },
     { name: "Cape Coast Castle", description: "A historic castle known for its role in the transatlantic slave trade, offering poignant tours and a deep dive into Ghana's history.", image: castleImage },
     { name: "Kakum National Park", description: "Famous for its canopy walkway suspended over 30 meters above the rainforest floor, providing breathtaking views of the treetops and wildlife.", image: kakumImage },
     { name: "Mole National Park", description: "Ghana's largest wildlife refuge, where you can go on a walking safari to see elephants, antelopes, monkeys, and various bird species in their natural habitat.", image: moleImage },
+    { name: "Mount Afadja (Afadjato)", description: "Ghana’s highest peak, offering panoramic views of the Volta Region and neighboring Togo.", image: afadaImage },
+
   ],
   "Food & Cuisine": [
     { name: "Ghana Jollof", description: "A beloved West African one-pot rice dish cooked in a flavorful tomato-based sauce with spices. A must-try staple and a source of friendly national rivalry.", image: jollofImage1 },
     { name: "Banku and Tilapia", description: "A fermented corn and cassava dough served with grilled tilapia. The dish is often accompanied by a spicy pepper sauce (shito) and onions.", image: bankuImage },
     { name: "Fufu", description: "A staple food made from pounded cassava and plantains, typically served with a variety of rich and savory soups like groundnut soup or light soup.", image: fufuImage },
+    { name: "Waakye", description: "A delicious mix of rice and beans cooked together, typically eaten with stew, spaghetti, fried plantain, and boiled egg.", image: waakyeImage },
+    { name: "Gari and Beans", description: "A comfort food made from black-eyed peas cooked in palm oil and served with fried ripe plantain and gari.", image: fufuImage },    
   ],
   "Culture & Festivals": [
      { name: "Homowo Festival", description: "Celebrated by the Ga people, this festival 'hoots at hunger' and involves traditional drumming, dancing, and the sprinkling of 'kpokpoi', a special festive food.", image: homowoImage },
      { name: "Kente Cloth Weaving", description: "Discover the intricate art of Kente weaving, a symbolic textile traditionally worn by Ashanti royalty. Each pattern and color has a specific meaning.", image: kenteImage },
-  ],
+     { name: "Traditional Drumming & Dancing", description: "Rhythmic performances that accompany ceremonies, storytelling, and celebrations across different ethnic groups.", image: danceImage },
+     { name: "Akan Chieftaincy & Royal Courts", description: "A deeply rooted cultural institution centered on stools, linguists, chiefs, and colorful regalia.", image: chieftancyImage },
+     { name: "Ghanaian Folklore & Storytelling (Ananse Stories)", description: "Oral traditions featuring Ananse the spider, teaching moral lessons through humor and wisdom.", image: ananseImage },
+
+    ],
   "The People": [
      { name: "Ashanti People", description: "One of the major ethnic groups in Ghana, located in the Ashanti Region. They are known for their rich history, the Golden Stool, and vibrant cultural traditions.", image: asanteImage },
      { name: "Warm Hospitality", description: "Ghanaians are renowned for their friendliness and welcoming nature, often referred to with the phrase 'Akwaaba' (Welcome).", image: hospitalityImage },
@@ -107,8 +116,24 @@ export const GHANA_DETAILS: GhanaCategoryData = {
     "Nature & Wildlife": [
      { name: "Wli Waterfalls", description: "The highest waterfall in Ghana, located in the Volta Region. The scenic hike to the falls takes you through lush greenery and across flowing streams.", image: wliImage },
      { name: "Boabeng-Fiema Monkey Sanctuary", description: "A unique community where Mona and Black and White Colobus monkeys are considered sacred and live in harmony with the local people.", image: monkeyImage },
-  ],
+     { name: "Lake Bosomtwe", description: "A beautiful natural crater lake surrounded by hills and peaceful villages.", image: lakeImage },
+     { name: "Boti Falls", description: "A twin waterfall located in the Eastern Region, known for its serene atmosphere and hiking trails.", image: natureImage },
+     { name: "Mole National Park", description: " Ghana’s largest wildlife reserve where visitors can see elephants, antelopes, baboons, and hundreds of bird species.", image: monkeyImage },
+ 
+    ],
     "Vibrant Markets": [
+     { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
+     { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
+  ],
+  "Supermarkets & Malls": [
+     { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
+     { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
+  ],
+  "Entertainment Centres": [
+     { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
+     { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
+  ],
+  "Popular Ghanaian Celebrities": [
      { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
      { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
   ],

@@ -77,6 +77,10 @@ export {default as natureImage} from './nature.jpg'
 export {default as peopleImage} from './people.jpg'
 export {default as wliImage} from './wli.jpeg'
 export {default as flag2Image} from './flag2.jpg'
+export {default as ananseImage} from './ananse.jpeg'
+export {default as chieftancyImage} from './chieftaincy.webp'
+export {default as danceImage} from './dance.png'
+
 
 
 //Blog Page

@@ -23,7 +23,11 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
     { title: "Culture & Festivals", image: otumfuoImage },
     { title: "The People", image: peopleImage },
     { title: "Nature & Wildlife", image: natureImage },
-    { title: "Vibrant Markets", image: marketImage },];
+    { title: "Vibrant Markets", image: marketImage },
+    { title: "Supermarkets & Malls", image: natureImage },
+    { title: "Entertainment Centres", image: natureImage },
+    { title: "Popular Ghanaian Celebrities", image: natureImage },
+];
 
     return (
         <div>
