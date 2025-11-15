@@ -25,7 +25,7 @@ const Ghana: React.FC<GhanaProps> = ({ selectCategory }) => {
     { title: "Nature & Wildlife", image: natureImage },
     { title: "Vibrant Markets", image: marketImage },
     { title: "Supermarkets & Malls", image: natureImage },
-    { title: "Entertainment Centres", image: natureImage },
+    { title: "Entertainment in Ghana", image: natureImage },
     { title: "Popular Ghanaian Celebrities", image: natureImage },
 ];
 

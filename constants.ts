@@ -129,7 +129,7 @@ export const GHANA_DETAILS: GhanaCategoryData = {
      { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
      { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
   ],
-  "Entertainment Centres": [
+  "Entertainment in Ghana": [
      { name: "Makola Market", description: "A bustling, colorful open-air market in the heart of Accra. It's a sensory experience where you can find everything from textiles and beads to fresh produce.", image: makolaImage },
      { name: "Kejetia Market", description: "One of the largest open-air markets in West Africa, located in Kumasi. A sprawling maze of stalls offering a vast array of goods and crafts.", image: kejetiaImage },
   ],
