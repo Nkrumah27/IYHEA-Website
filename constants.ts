@@ -1,6 +1,6 @@
 
 import { Page } from './App';
-import { FaceImage, HomeImage1, accraImage, afadaImage, ananseImage, asanteImage, bankuImage, castleImage, chieftancyImage, danceImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, jollofImage1, kaaf2Image, kakumImage, kejetiaImage, kenteImage, kwameImage, lakeImage, makolaImage, moleImage, monkeyImage, natureImage, waakyeImage, wliImage } from './assets';
+import { FaceImage, HomeImage1, accraImage, afadaImage, ananseImage, asanteImage, bankuImage, beansImage, castleImage, chieftancyImage, danceImage, food2Image, fufuImage, homowoImage, hospitalityImage, jollofImage, jollofImage1, kaaf2Image, kakumImage, kejetiaImage, kenteImage, kwameImage, lakeImage, makolaImage, moleImage, monkeyImage, natureImage, waakyeImage, wliImage } from './assets';
 import { NavLink, Testimonial, FaqCategory, GhanaCategoryData, BlogPost } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -99,7 +99,7 @@ export const GHANA_DETAILS: GhanaCategoryData = {
     { name: "Banku and Tilapia", description: "A fermented corn and cassava dough served with grilled tilapia. The dish is often accompanied by a spicy pepper sauce (shito) and onions.", image: bankuImage },
     { name: "Fufu", description: "A staple food made from pounded cassava and plantains, typically served with a variety of rich and savory soups like groundnut soup or light soup.", image: fufuImage },
     { name: "Waakye", description: "A delicious mix of rice and beans cooked together, typically eaten with stew, spaghetti, fried plantain, and boiled egg.", image: waakyeImage },
-    { name: "Gari and Beans", description: "A comfort food made from black-eyed peas cooked in palm oil and served with fried ripe plantain and gari.", image: fufuImage },    
+    { name: "Gari and Beans", description: "A comfort food made from black-eyed peas cooked in palm oil and served with fried ripe plantain and gari.", image: beansImage },    
   ],
   "Culture & Festivals": [
      { name: "Homowo Festival", description: "Celebrated by the Ga people, this festival 'hoots at hunger' and involves traditional drumming, dancing, and the sprinkling of 'kpokpoi', a special festive food.", image: homowoImage },
