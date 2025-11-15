@@ -118,7 +118,7 @@ export const GHANA_DETAILS: GhanaCategoryData = {
      { name: "Boabeng-Fiema Monkey Sanctuary", description: "A unique community where Mona and Black and White Colobus monkeys are considered sacred and live in harmony with the local people.", image: monkeyImage },
      { name: "Lake Bosomtwe", description: "A beautiful natural crater lake surrounded by hills and peaceful villages.", image: lakeImage },
      { name: "Boti Falls", description: "A twin waterfall located in the Eastern Region, known for its serene atmosphere and hiking trails.", image: natureImage },
-     { name: "Mole National Park", description: " Ghana’s largest wildlife reserve where visitors can see elephants, antelopes, baboons, and hundreds of bird species.", image: monkeyImage },
+     { name: "Mole National Park", description: " Ghana’s largest wildlife reserve where visitors can see elephants, antelopes, baboons, and hundreds of bird species.", image: moleImage },
  
     ],
     "Vibrant Markets": [
